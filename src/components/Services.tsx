@@ -22,7 +22,7 @@ export default function Services() {
               transition={{ duration: 0.7, ease: EASE }}
               className="font-mono text-xs tracking-[0.4em] text-smoke"
             >
-              04 — WHAT I DO
+              03 — WHAT I DO
             </motion.p>
             <div className="overflow-hidden">
               <motion.h2

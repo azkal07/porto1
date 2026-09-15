@@ -108,7 +108,7 @@ export default function Works() {
             transition={{ duration: 0.7, ease: EASE }}
             className="font-mono text-xs tracking-[0.4em] text-smoke"
           >
-            03 — SELECTED WORKS
+            02 — SELECTED WORKS
           </motion.p>
 
           <div className="relative mt-2">

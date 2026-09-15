@@ -6,7 +6,6 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Marquee from "./components/Marquee";
 import About from "./components/About";
-import Skills from "./components/Skills";
 import Works from "./components/Works";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
@@ -27,7 +26,6 @@ export default function App() {
             <Hero />
             <Marquee />
             <About />
-            <Skills />
             <Works />
             <Services />
           </main>

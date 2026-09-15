@@ -19,7 +19,7 @@ export default function Footer() {
             className="flex items-center gap-3 font-mono text-xs tracking-[0.4em] text-smoke"
           >
             <span className="h-[2px] w-10 bg-acid" />
-            05 — CONTACT
+            04 — CONTACT
           </motion.p>
 
           <a href="mailto:hello@protofilo.design" data-hover className="group mt-6 block">

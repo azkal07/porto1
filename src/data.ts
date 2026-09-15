@@ -37,41 +37,9 @@ export const WORKS: Work[] = [
 export const NAV_LINKS = [
   { label: "HOME", href: "#home" },
   { label: "ABOUT", href: "#about" },
-  { label: "SKILLS", href: "#skills" },
   { label: "WORKS", href: "#works" },
   { label: "SERVICES", href: "#services" },
   { label: "CONTACT", href: "#contact" },
-];
-
-export interface Skill {
-  name: string;
-  level: number;
-}
-
-export interface SkillGroup {
-  title: string;
-  skills: Skill[];
-}
-
-export const SKILLS: SkillGroup[] = [
-  {
-    title: "DESIGN",
-    skills: [
-      { name: "UI / UX DESIGN", level: 92 },
-      { name: "FIGMA", level: 90 },
-      { name: "DESIGN SYSTEMS", level: 85 },
-      { name: "PROTOTYPING", level: 88 },
-    ],
-  },
-  {
-    title: "DEVELOPMENT",
-    skills: [
-      { name: "REACT / TYPESCRIPT", level: 90 },
-      { name: "TAILWIND CSS", level: 88 },
-      { name: "FRAMER MOTION", level: 82 },
-      { name: "GIT & TOOLING", level: 80 },
-    ],
-  },
 ];
 
 export const MARQUEE_ITEMS = [
